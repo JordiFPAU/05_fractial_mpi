@@ -35,78 +35,78 @@ CONFIGURATION = Release
 include CMakeFiles/common.ninja
 
 # =============================================================================
-# Object build statements for EXECUTABLE target fractal_mpi
+# Object build statements for EXECUTABLE target fractal
 
 
 #############################################
-# Order-only phony target for fractal_mpi
+# Order-only phony target for fractal
 
-build cmake_object_order_depends_target_fractal_mpi_RELEASE: phony || .
+build cmake_object_order_depends_target_fractal_RELEASE: phony || .
 
-build CMakeFiles/fractal_mpi.dir/Release/main.cpp.obj: CXX_COMPILER__fractal_mpi_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/main.cpp || cmake_object_order_depends_target_fractal_mpi_RELEASE
+build CMakeFiles/fractal.dir/Release/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles\fractal_mpi.dir\Release\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal.dir\Release\main_fractal.cpp.obj.d
   FLAGS = -O3 -DNDEBUG
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal_mpi.dir\Release
-  OBJECT_FILE_DIR = CMakeFiles\fractal_mpi.dir\Release
+  OBJECT_DIR = CMakeFiles\fractal.dir\Release
+  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
 
-build CMakeFiles/fractal_mpi.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_mpi_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_mpi_RELEASE
+build CMakeFiles/fractal.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles\fractal_mpi.dir\Release\fractal_mpi.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal.dir\Release\fractal_mpi.cpp.obj.d
   FLAGS = -O3 -DNDEBUG
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal_mpi.dir\Release
-  OBJECT_FILE_DIR = CMakeFiles\fractal_mpi.dir\Release
+  OBJECT_DIR = CMakeFiles\fractal.dir\Release
+  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
 
-build CMakeFiles/fractal_mpi.dir/Release/palette.cpp.obj: CXX_COMPILER__fractal_mpi_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_mpi_RELEASE
+build CMakeFiles/fractal.dir/Release/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles\fractal_mpi.dir\Release\palette.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal.dir\Release\palette.cpp.obj.d
   FLAGS = -O3 -DNDEBUG
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal_mpi.dir\Release
-  OBJECT_FILE_DIR = CMakeFiles\fractal_mpi.dir\Release
+  OBJECT_DIR = CMakeFiles\fractal.dir\Release
+  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
 
-build CMakeFiles/fractal_mpi.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal_mpi_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_mpi_RELEASE
+build CMakeFiles/fractal.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles\fractal_mpi.dir\Release\draw_text.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal.dir\Release\draw_text.cpp.obj.d
   FLAGS = -O3 -DNDEBUG
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal_mpi.dir\Release
-  OBJECT_FILE_DIR = CMakeFiles\fractal_mpi.dir\Release
+  OBJECT_DIR = CMakeFiles\fractal.dir\Release
+  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target fractal_mpi
+# Link build statements for EXECUTABLE target fractal
 
 
 #############################################
-# Link the executable Release\fractal_mpi.exe
+# Link the executable Release\fractal.exe
 
-build Release/fractal_mpi.exe: CXX_EXECUTABLE_LINKER__fractal_mpi_Release CMakeFiles/fractal_mpi.dir/Release/main.cpp.obj CMakeFiles/fractal_mpi.dir/Release/fractal_mpi.cpp.obj CMakeFiles/fractal_mpi.dir/Release/palette.cpp.obj CMakeFiles/fractal_mpi.dir/Release/draw_text.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/oneAPI/mpi/latest/lib/impi.lib C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a
+build Release/fractal.exe: CXX_EXECUTABLE_LINKER__fractal_Release CMakeFiles/fractal.dir/Release/main_fractal.cpp.obj CMakeFiles/fractal.dir/Release/fractal_mpi.cpp.obj CMakeFiles/fractal.dir/Release/palette.cpp.obj CMakeFiles/fractal.dir/Release/draw_text.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/oneAPI/mpi/latest/lib/impi.lib C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a
   CONFIG = Release
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/latest/lib/impi.lib  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\fractal_mpi.dir\Release
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractial_mpi/build/Release/fractal_mpi.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
+  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/latest/lib/impi.lib  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fractal.dir\Release
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractial_mpi/build/Release/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_FILE = Release\fractal_mpi.exe
-  TARGET_IMPLIB = Release\libfractal_mpi.dll.a
-  TARGET_PDB = fractal_mpi.exe.dbg
+  TARGET_FILE = Release\fractal.exe
+  TARGET_IMPLIB = Release\libfractal.dll.a
+  TARGET_PDB = fractal.exe.dbg
 
-build fractal_mpi.exe$:Release: phony Release/fractal_mpi.exe
+build fractal.exe$:Release: phony Release/fractal.exe
 
-build fractal_mpi$:Release: phony Release/fractal_mpi.exe
+build fractal$:Release: phony Release/fractal.exe
 
 
 #############################################
 # Folder: C:/tools/prog_paralela/05_fractial_mpi/build
 
-build all$:Release: phony Release/fractal_mpi.exe
+build all$:Release: phony Release/fractal.exe
 
 
 #############################################

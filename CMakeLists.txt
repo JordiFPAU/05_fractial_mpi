@@ -7,6 +7,8 @@ project(fractal_mpi)
 find_package(fmt CONFIG REQUIRED)
 find_package(Stb REQUIRED)
 find_package(Freetype REQUIRED)
+find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
+
 
 ##find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
 ## --
@@ -19,16 +21,16 @@ include_directories(
 )
 
 #generar ejectuable , por que medio se ejecutara main.cpp
-add_executable(fractal_mpi main.cpp
+add_executable(fractal main_fractal.cpp
     fractal_mpi.cpp
     palette.cpp
     draw_text.cpp
 )
 
 
-target_link_libraries(fractal_mpi PRIVATE
+target_link_libraries(fractal PRIVATE
     fmt::fmt
     Freetype::Freetype
     ${MPI_LIB}/impi.lib
+    SFML::Graphics
 )
-
