@@ -1,3 +1,3 @@
-C:/tools/prog_paralela/05_fractial_mpi/build/CMakeFiles/fractal_mpi.dir
+C:/tools/prog_paralela/05_fractial_mpi/build/CMakeFiles/fractal.dir
 C:/tools/prog_paralela/05_fractial_mpi/build/CMakeFiles/edit_cache.dir
 C:/tools/prog_paralela/05_fractial_mpi/build/CMakeFiles/rebuild_cache.dir
