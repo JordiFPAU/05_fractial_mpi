@@ -34,3 +34,5 @@ target_link_libraries(fractal PRIVATE
     ${MPI_LIB}/impi.lib
     SFML::Graphics
 )
+
+

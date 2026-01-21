@@ -11,7 +11,7 @@ build fractal.exe: phony Debug/fractal.exe
 
 
 #############################################
-# Folder: C:/tools/prog_paralela/05_fractial_mpi/build
+# Folder: C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build
 
 build all: phony all$:Debug
 

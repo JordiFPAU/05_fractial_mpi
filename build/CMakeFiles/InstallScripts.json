@@ -5,7 +5,7 @@
 	],
 	"InstallScripts" : 
 	[
-		"C:/tools/prog_paralela/05_fractial_mpi/build/cmake_install.cmake"
+		"C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

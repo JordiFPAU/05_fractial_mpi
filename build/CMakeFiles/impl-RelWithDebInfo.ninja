@@ -43,7 +43,7 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_fractal_RELWITHDEBINFO: phony || .
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractial_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal.dir/RelWithDebInfo/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\main_fractal.cpp.obj.d
@@ -51,8 +51,10 @@ build CMakeFiles/fractal.dir/RelWithDebInfo/main_fractal.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
+  TARGET_PDB = RelWithDebInfo\fractal.pdb
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\fractal_mpi.cpp.obj.d
@@ -60,8 +62,10 @@ build CMakeFiles/fractal.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__f
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
+  TARGET_PDB = RelWithDebInfo\fractal.pdb
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\palette.cpp.obj.d
@@ -69,8 +73,10 @@ build CMakeFiles/fractal.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fract
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
+  TARGET_PDB = RelWithDebInfo\fractal.pdb
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\draw_text.cpp.obj.d
@@ -78,6 +84,8 @@ build CMakeFiles/fractal.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fra
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
+  TARGET_PDB = RelWithDebInfo\fractal.pdb
 
 
 # =============================================================================
@@ -92,11 +100,12 @@ build RelWithDebInfo/fractal.exe: CXX_EXECUTABLE_LINKER__fractal_RelWithDebInfo 
   FLAGS = -O2 -g -DNDEBUG
   LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/latest/lib/impi.lib  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractial_mpi/build/RelWithDebInfo/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractal_mpi\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build/RelWithDebInfo/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
   TARGET_FILE = RelWithDebInfo\fractal.exe
   TARGET_IMPLIB = RelWithDebInfo\libfractal.dll.a
-  TARGET_PDB = fractal.exe.dbg
+  TARGET_PDB = RelWithDebInfo\fractal.pdb
 
 build fractal.exe$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
 
@@ -104,7 +113,7 @@ build fractal$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
 
 
 #############################################
-# Folder: C:/tools/prog_paralela/05_fractial_mpi/build
+# Folder: C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build
 
 build all$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
 

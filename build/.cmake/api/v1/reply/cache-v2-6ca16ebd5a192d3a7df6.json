@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/tools/prog_paralela/05_fractial_mpi/build"
+			"value" : "c:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,7 +139,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "STRING",
@@ -283,7 +283,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "STRING",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/prog_paralela/05_fractial_mpi/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/tools/prog_paralela/05_fractial_mpi"
+			"value" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1287,10 +1287,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1707,7 +1707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/prog_paralela/05_fractial_mpi/build"
+			"value" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build"
 		},
 		{
 			"name" : "fractal_mpi_IS_TOP_LEVEL",
@@ -1731,7 +1731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/prog_paralela/05_fractial_mpi"
+			"value" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi"
 		}
 	],
 	"kind" : "cache",

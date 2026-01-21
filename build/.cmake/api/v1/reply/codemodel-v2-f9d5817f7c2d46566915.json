@@ -137,8 +137,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/tools/prog_paralela/05_fractial_mpi/build",
-		"source" : "C:/tools/prog_paralela/05_fractial_mpi"
+		"build" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build",
+		"source" : "C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi"
 	},
 	"version" : 
 	{

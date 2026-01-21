@@ -43,7 +43,7 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_fractal_RELEASE: phony || .
 
-build CMakeFiles/fractal.dir/Release/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELEASE
+build CMakeFiles/fractal.dir/Release/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
   DEP_FILE = CMakeFiles\fractal.dir\Release\main_fractal.cpp.obj.d
@@ -51,8 +51,10 @@ build CMakeFiles/fractal.dir/Release/main_fractal.cpp.obj: CXX_COMPILER__fractal
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\Release\
+  TARGET_PDB = Release\fractal.pdb
 
-build CMakeFiles/fractal.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELEASE
+build CMakeFiles/fractal.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
   DEP_FILE = CMakeFiles\fractal.dir\Release\fractal_mpi.cpp.obj.d
@@ -60,8 +62,10 @@ build CMakeFiles/fractal.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\Release\
+  TARGET_PDB = Release\fractal.pdb
 
-build CMakeFiles/fractal.dir/Release/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELEASE
+build CMakeFiles/fractal.dir/Release/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
   DEP_FILE = CMakeFiles\fractal.dir\Release\palette.cpp.obj.d
@@ -69,8 +73,10 @@ build CMakeFiles/fractal.dir/Release/palette.cpp.obj: CXX_COMPILER__fractal_unsc
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\Release\
+  TARGET_PDB = Release\fractal.pdb
 
-build CMakeFiles/fractal.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELEASE
+build CMakeFiles/fractal.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_Release C$:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELEASE
   CONFIG = Release
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Release\"
   DEP_FILE = CMakeFiles\fractal.dir\Release\draw_text.cpp.obj.d
@@ -78,6 +84,8 @@ build CMakeFiles/fractal.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal_un
   INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractal.dir\Release
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\Release\
+  TARGET_PDB = Release\fractal.pdb
 
 
 # =============================================================================
@@ -92,11 +100,12 @@ build Release/fractal.exe: CXX_EXECUTABLE_LINKER__fractal_Release CMakeFiles/fra
   FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/latest/lib/impi.lib  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal.dir\Release
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractial_mpi/build/Release/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\prog_paralela\05_fractal_mpi\05_fractial_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build/Release/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\Release\
   TARGET_FILE = Release\fractal.exe
   TARGET_IMPLIB = Release\libfractal.dll.a
-  TARGET_PDB = fractal.exe.dbg
+  TARGET_PDB = Release\fractal.pdb
 
 build fractal.exe$:Release: phony Release/fractal.exe
 
@@ -104,7 +113,7 @@ build fractal$:Release: phony Release/fractal.exe
 
 
 #############################################
-# Folder: C:/tools/prog_paralela/05_fractial_mpi/build
+# Folder: C:/tools/prog_paralela/05_fractal_mpi/05_fractial_mpi/build
 
 build all$:Release: phony Release/fractal.exe
 

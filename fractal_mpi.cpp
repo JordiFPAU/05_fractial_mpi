@@ -36,9 +36,9 @@ void julia_mpi(double x_min, double y_min, double x_max,
     double dx = (x_max - x_min) / (WIDTH);
     double dy = (y_max - y_min) / (HEIGHT);
 
-    for (int i = row_start; i < row_end; i++)
+    for (int j = row_start; j < row_end; j++)
     {
-        for (int j = 0; j < WIDTH; j++)
+        for (int i = 0; i < WIDTH; i++)
         {
             double x = x_min + i * dx;
             double y = y_min + j * dy;
